@@ -1,0 +1,198 @@
+[
+    {
+        "department": "CS",
+        "number": 130,
+        "level": 1,
+        "title": "Fundamentals of Web Programming",
+        "duration": "7 weeks",
+        "offered": "every semester",
+        "credits": 2,
+        "prerequisites": [],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "This course focuses on learning the basic building blocks of web programming. The student will be introduced to three languages used for web page design and implementation: HTML, CSS, and Javascript. To develop a deeper understanding of how websites work together, the HTTP protocol will be introduced along with basic AJAX programming. The 4 credit option is available when offered during the summer. Recommended for students with an interest in computer science but no prior experience."
+    },
+    {
+        "department": "CS",
+        "number": 140,
+        "level": 1,
+        "title": "Data Modeling and Querying",
+        "duration": "7 weeks",
+        "offered": "every semester",
+        "credits": 2,
+        "prerequisites": [],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "The course focuses on constructing relational models of data, the relational algebra, querying relational databases using SQL. Students will become familiar with a popular open source data management system such as MySQL or Postgresql."
+    },
+    {
+        "department": "CS",
+        "number": 150,
+        "level": 1,
+        "title": "Introduction to Computer Science",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "An introduction to computer science emphasizing problem solving. Problems are selected from a variety of interesting areas such as graphics, image processing, cryptography, data analysis, astronomy, video games, and environmental stimulation. Topics include algorithm design and object oriented programming."
+    },
+    {
+        "department": "DS",
+        "number": 120,
+        "level": 1,
+        "title": "Introduction to Data Science",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [],
+        "required": [
+            "major",
+            "minor"
+        ],
+        "description": "Introduction to Data Science."
+    },
+    {
+        "department": "DS",
+        "number": 320,
+        "level": 3,
+        "title": "Data Visualization",
+        "duration": "full semester",
+        "offered": "Fall semester",
+        "credits": 4,
+        "prerequisites": [
+            115,
+            120,
+            150
+        ],
+        "required": [
+            "major",
+            "minor"
+        ],
+        "description": "Data Visualization."
+    },
+    {
+        "department": "DS",
+        "number": 420,
+        "level": 4,
+        "title": "Applied Machine Learning",
+        "duration": "full semester",
+        "offered": "Spring semester",
+        "credits": 4,
+        "prerequisites": [
+            115,
+            120,
+            150,
+            320
+        ],
+        "required": [
+            "major",
+            "minor"
+        ],
+        "description": "This course looks at the algorithms and techniques used in Machine learning, including simple neural networks, support vector machines, decision trees and clustering techniques. The course takes a top down approach in using the algorithms through common Data Science tools such as Scikit-learn or R. This course will also look at good experimental design for using these tools."
+    },
+    {
+        "department": "DS",
+        "number": 490,
+        "level": 4,
+        "title": "Senior Project",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 1,
+        "prerequisites": [
+            115,
+            120,
+            130,
+            140,
+            150,
+            320,
+            327,
+            420
+        ],
+        "required": [
+            "major"
+        ],
+        "description": "Senior Project."
+    },
+    {
+        "department": "MATH",
+        "number": 115,
+        "level": 1,
+        "title": "Introduction to Statistics",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [],
+        "required": [
+            "major",
+            "minor"
+        ],
+        "description": "Introduction to Statistics."
+    },
+    {
+        "department": "MATH",
+        "number": 327,
+        "level": 3,
+        "title": "Applied Statistics I",
+        "duration": "full semester",
+        "offered": "Fall semester",
+        "credits": 4,
+        "prerequisites": [
+            115
+        ],
+        "required": [
+            "major"
+        ],
+        "description": "Applied Statistics I."
+    },
+    {
+        "department": "SAC",
+        "number": 100,
+        "level": 1,
+        "title": "Subject Area Course I",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [],
+        "required": [
+            "major",
+            "minor"
+        ],
+        "description": "Subject Area Course I."
+    },
+    {
+        "department": "SAC",
+        "number": 200,
+        "level": 2,
+        "title": "Subject Area Course II",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [],
+        "required": [
+            "major"
+        ],
+        "description": "Subject Area Course II."
+    },
+    {
+        "department": "SAC",
+        "number": 300,
+        "level": 3,
+        "title": "Subject Area Course III",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [],
+        "required": [
+            "major"
+        ],
+        "description": "Subject Area Course III."
+    }
+]

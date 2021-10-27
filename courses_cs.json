@@ -1,0 +1,435 @@
+[
+    {
+        "department": "CS",
+        "number": 130,
+        "level": 1,
+        "title": "Fundamentals of Web Programming",
+        "duration": "7 weeks",
+        "offered": "every semester",
+        "credits": 2,
+        "prerequisites": [],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "This course focuses on learning the basic building blocks of web programming. The student will be introduced to three languages used for web page design and implementation: HTML, CSS, and Javascript. To develop a deeper understanding of how websites work together, the HTTP protocol will be introduced along with basic AJAX programming. The 4 credit option is available when offered during the summer. Recommended for students with an interest in computer science but no prior experience."
+    },
+    {
+        "department": "CS",
+        "number": 140,
+        "level": 1,
+        "title": "Data Modeling and Querying",
+        "duration": "7 weeks",
+        "offered": "every semester",
+        "credits": 2,
+        "prerequisites": [],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "The course focuses on constructing relational models of data, the relational algebra, querying relational databases using SQL. Students will become familiar with a popular open source data management system such as MySQL or Postgresql."
+    },
+    {
+        "department": "CS",
+        "number": 150,
+        "level": 1,
+        "title": "Introduction to Computer Science",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "An introduction to computer science emphasizing problem solving. Problems are selected from a variety of interesting areas such as graphics, image processing, cryptography, data analysis, astronomy, video games, and environmental stimulation. Topics include algorithm design and object oriented programming."
+    },
+    {
+        "department": "CS",
+        "number": 160,
+        "level": 2,
+        "title": "Algorithms and Data Structures",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [
+            150
+        ],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "A continuation of the ideas presented in CS 150 with particular emphasis on data structures, algorithms, and analysis. Implementation of abstract data types such as stacks, queues, trees, and graphs as well as important recursive and non-recursive algorithms. Analysis of sorting and searching algorithms."
+    },
+    {
+        "department": "CS",
+        "number": 499,
+        "level": 1,
+        "title": "Dev Tools Proficiency",
+        "duration": "self-paced",
+        "offered": "on demand",
+        "credits": 0,
+        "prerequisites": [],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "Students are introduced to tools for automation including shell programming, use of the Linux operating system including redirection of input and output, piping, file management, and system security."
+    },
+    {
+        "department": "CS",
+        "number": 252,
+        "level": 2,
+        "title": "Object-oriented programming with Java",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            499
+        ],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "Introduction to Java and development in an object-oriented programming language. Topics include project setup and organization, packages, classes, object creation, inheritance, interfaces, polymorphism and the use of built-in types and the Java class library. Considerable time is dedicated to learning incremental programming, debugging strategies, testing strategies, interface documentation, preconditions, postconditions, boundary case testing, unit testing of individual functions, test stubs and test harnesses."
+    },
+    {
+        "department": "CS",
+        "number": 253,
+        "level": 6,
+        "title": "Object-oriented programming with C++",
+        "duration": "7 weeks",
+        "offered": "on demand",
+        "credits": 2,
+        "prerequisites": [
+            150,
+            160,
+            252,
+            499
+        ],
+        "required": [],
+        "description": "Introduction to C and C++ and development in an object-oriented programming language. Topics include C++ organization of classes and function prototypes, header files, class declaration and implementation. Other topics include inheritance, polymorphism, the use of copy constructors, destructors, streams, and operator overloading."
+    },
+    {
+        "department": "CS",
+        "number": 260,
+        "level": 2,
+        "title": "Computational Models",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            499
+        ],
+        "required": [
+            "major"
+        ],
+        "description": "In this course we examine mathematical structures that are relevant to understanding both theoretical as well as practical ideas in computer science. Topics include: logic, sets, graph theory, regular languages, deterministic and nondeterministic finite automata, regular grammars, regular expressions, induction and recursion, pushdown automata, turing machines, and computability"
+    },
+    {
+        "department": "CS",
+        "number": 296,
+        "level": 3,
+        "title": "Writing in the Major Lab",
+        "duration": "2nd 7 weeks",
+        "offered": "every semester",
+        "credits": 1,
+        "prerequisites": [
+            150,
+            160,
+            499
+        ],
+        "required": [
+            "major"
+        ],
+        "description": "A companion to any of CS 330, 352, 353, 360, 370, 430, 440, 450, 460, DS 320, or 420. Students wishing to delve deeper into a subject in one of the companion courses may register for this lab with consent of instructor. A student taking this lab will be required to write a technical paper in the style typical of a computer science journal or conference proceedings, on a topic agreed to by the companion course instructor. Feedback will be provided on writing style and content with the paper going through multiple revisions. Students receiving a C or better on their paper will fulfill the writing in the major requirement. Students may register for this as a seven week lab anytime prior to the middle of the semester in which the companion course is taught. Requires consent of instructor."
+    },
+    {
+        "department": "CS",
+        "number": 330,
+        "level": 2,
+        "title": "Internet Programming",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [
+            130,
+            140,
+            150,
+            160,
+            499
+        ],
+        "required": [
+            "minor",
+            "major"
+        ],
+        "description": "In this course we examine three-tier Internet application architectures. Applications developed for the internet typically have a database back end, an application server in the middle and a web server on the front end. We will examine application programming frameworks from CGI to Servlets, and other modern application programming frameworks such as Ruby on Rails. Other topics include XML-based architectures such as RSS and web services, data transformation using XSL and XSLT. The course is largely project driven, students will implement a complete web based application. HCI is addressed."
+    },
+    {
+        "department": "CS",
+        "number": 352,
+        "level": 6,
+        "title": "Embedded Android Programming",
+        "duration": "full semester",
+        "offered": "on demand",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            252,
+            499
+        ],
+        "required": [],
+        "description": "Study Android development with attention to HCI. Taught alternating years."
+    },
+    {
+        "department": "CS",
+        "number": 353,
+        "level": 6,
+        "title": "Embedded iOS Programming",
+        "duration": "full semester",
+        "offered": "on demand",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            252,
+            499
+        ],
+        "required": [],
+        "description": "Study iOS development with attention to HCI. Taught alternating years."
+    },
+    {
+        "department": "CS",
+        "number": 360,
+        "level": 3,
+        "title": "Advanced Algorithms and Data Structures",
+        "duration": "full semester",
+        "offered": "every Fall semester",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            260,
+            499
+        ],
+        "required": [
+            "major"
+        ],
+        "description": "Development of advanced data structures, parallel algorithms, and advanced analysis of algorithms. Included topics are B-trees, Tries, B+ and B* trees, hashing algorithms and other structures for dealing with large data sets. Algorithms for data set manipulation including parallel algorithms for processing data sets."
+    },
+    {
+        "department": "CS",
+        "number": 370,
+        "level": 3,
+        "title": "Programming Languages",
+        "duration": "full semester",
+        "offered": "every Spring semester",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            252,
+            260,
+            499
+        ],
+        "required": [
+            "major"
+        ],
+        "description": "A comparison of the structure, design, and applications of various programming languages. Topics include history, language definition, formal models of syntax and semantics, data types and structures, data abstraction, control structures, data flow, and runtime considerations. Languages will be discussed in a logical organization based upon the major paradigms including imperative, logic, functional, and object oriented. Examples from classic and contemporary languages."
+    },
+    {
+        "department": "CS",
+        "number": 385,
+        "level": 6,
+        "title": "Understanding Entrepreneurship in Silicon Valley",
+        "duration": "study away",
+        "offered": "J-Term",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            260
+        ],
+        "required": [],
+        "description": "Internet technology has fundamentally changed marketing, communications and the operations of every business in our society. Silicon Valley is home to the people, places and power sources that drive this machine. Students in this J-Term trip will gain both theoretical and tactical understanding of business strategies utilized in the Valley and also have the opportunity to speak with industry leaders and the companies they represent. We will visit companies and key people including entrepreneurs, venture capitalists, engineers and marketing professionals."
+    },
+    {
+        "department": "CS",
+        "number": 386,
+        "level": 6,
+        "title": "The Digital Transformation of Central Europe",
+        "duration": "study away",
+        "offered": "J-Term",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            260
+        ],
+        "required": [],
+        "description": "Over the last 25 years, Central Europe became an important IT hub, hosting many startups and multinational corporations. Students in this course will travel to Germany, Czech Republic, Hungary, and Bulgaria to visit companies and universities to gain an understanding of the ingredients and environment in which this transformation is occurring. We will explore challenges and opportunities of doing business in a growing economy, study markets served by the successful companies, and compare Computer Science curriculum taught in the U.S. and at Luther to that taught in these European countries."
+    },
+    {
+        "department": "CS",
+        "number": 430,
+        "level": 4,
+        "title": "Computer Networks",
+        "duration": "full semester",
+        "offered": "Fall semester",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            252,
+            260,
+            499
+        ],
+        "required": [],
+        "description": "Concepts, principles, protocols, and applications of computer networks with a focus on the Internet, including application layer protocols such as http, smtp; socket programming and peer-to-peer networks; transport-layer protocols such as TCP, UDP and congestion control; network layer algorithms for routing and broadcast, and multicast; link-level protocols for local area networks such as Ethernet and WIFI; and issues in network privacy and security."
+    },
+    {
+        "department": "CS",
+        "number": 440,
+        "level": 4,
+        "title": "Database Management Systems",
+        "duration": "full semester",
+        "offered": "Fall semester",
+        "credits": 4,
+        "prerequisites": [
+            140,
+            150,
+            160,
+            252,
+            260,
+            499
+        ],
+        "required": [],
+        "description": "This course takes a bottom-up approach to understanding a complex software system. The course examines the implementation of a database management system. Topics include disk and file management, transaction processing, meta-data management, query planning and implementation, parsing queries, indexing, query optimization, and B-trees."
+    },
+    {
+        "department": "CS",
+        "number": 450,
+        "level": 4,
+        "title": "Operating Systems and Architecture",
+        "duration": "full semester",
+        "offered": "Spring semester",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            252,
+            260,
+            499
+        ],
+        "required": [],
+        "description": "A study of computer architecture and operating systems structures and algorithms emphasizing multiple-user systems. Topics include binary number systems, digital logic circuits, machine architecture and assembly language, process management, CPU scheduling, concurrency and multi-tasking computing concepts including communication and synchronization issues, storage management, and protection and security."
+    },
+    {
+        "department": "CS",
+        "number": 460,
+        "level": 4,
+        "title": "Information Assurance and Security",
+        "duration": "full semester",
+        "offered": "Spring semester",
+        "credits": 4,
+        "prerequisites": [
+            150,
+            160,
+            252,
+            260,
+            330,
+            499
+        ],
+        "required": [],
+        "description": "This course covers the fundamental concepts, principles, and best practices of information security with a holistic view and applied approach. Topics include: symmetric and public and cryptography, cryptanalysis, authentication and authorization, real-world security protocols, software vulnerabilities, and professional ethics."
+    },
+    {
+        "department": "CS",
+        "number": 490,
+        "level": 5,
+        "title": "Senior Project I",
+        "duration": "full semester",
+        "offered": "Fall semester",
+        "credits": 2,
+        "prerequisites": [
+            130,
+            140,
+            150,
+            160,
+            252,
+            260,
+            330,
+            499
+        ],
+        "required": [],
+        "description": "Senior computer science majors participate in a substantial, yearlong software development project; CS 490 in the fall, CS 491 in the spring. Students work from conceptualization and design through to implementation and delivery of a real software application."
+    },
+    {
+        "department": "CS",
+        "number": 491,
+        "level": 5,
+        "title": "Senior Project II",
+        "duration": "full semester",
+        "offered": "Spring semester",
+        "credits": 2,
+        "prerequisites": [
+            130,
+            140,
+            150,
+            160,
+            252,
+            260,
+            330,
+            490,
+            499
+        ],
+        "required": [],
+        "description": ""
+    },
+    {
+        "department": "CS",
+        "number": 492,
+        "level": 5,
+        "title": "Accelerated Senior Project",
+        "duration": "full semester",
+        "offered": "every semester",
+        "credits": 4,
+        "prerequisites": [
+            130,
+            140,
+            150,
+            160,
+            252,
+            260,
+            296,
+            499
+        ],
+        "required": [],
+        "description": "Research paper or software project completed in 1 semester."
+    },
+    {
+        "department": "DS",
+        "number": 420,
+        "level": 4,
+        "title": "Applied Machine Learning",
+        "duration": "full semester",
+        "offered": "Spring semester",
+        "credits": 4,
+        "prerequisites": [
+            130,
+            140,
+            150,
+            160,
+            252,
+            260,
+            499
+        ],
+        "required": [],
+        "description": "This course looks at the algorithms and techniques used in Machine learning, including simple neural networks, support vector machines, decision trees and clustering techniques. The course takes a top down approach in using the algorithms through common Data Science tools such as Scikit-learn or R. This course will also look at good experimental design for using these tools."
+    }
+]
